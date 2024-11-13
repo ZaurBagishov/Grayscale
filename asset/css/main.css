@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}
+.decoration{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+/* head-start */
+.head{
+    width: 100%;
+    height: 75px;
+    background-color: transparent;
+    position: fixed;
+    background-color: white;
+}
+.nav{
+    width: 1235px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+li:hover a {
+    color: #64a19d;
+}
+/* .a-tag{
+    position: relative;
+}
+.a-tag:hover{
+    color: #64a19d;
+}
+l::visited{
+    content: "";
+    width: 20px;
+    height: 5px;
+    background-color: #64a19d;
+} */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+/* head-end */
+
+.first{
+    height: 735px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+.first-first{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1-first{
+    font-size: 104px;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+}
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  .h2-first{
+    font-size: 20px;
+    text-align: center;
+    color: #aaa8ac;
+  }
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.button{
+    width: 180px;
+    height: 65px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: #64a19d;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.second{
+    height: 735px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    background-image: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.second-first{
+    width: 805px;
+    height: 100%;
+    margin: auto;
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h2-second{
+    font-size: 32px;
+}
+.p-second{
+    font-size: 18px;
+    padding-top: 35px;
+    text-align: center;
+    color: #aaa8ac;
+}
+.a-color{
+    color: #64a19d;
+}
+.img-second{
+    position: absolute;
+    max-width: 80%;
+    height: auto;
+    bottom: 0;
+    left: 140px;
+}
+
+
+.third{
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+.third-first{
+    width: 1220px;
+    height: 510px;
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.line{
+    background-color: #64a19d;
+    height: 135px;
+    width: 10px;
+    margin-top: 190px;
+}
+.third-text{
+    width: 350px;
+    height: 100%;
+    margin-left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h4-third{
+    font-size: 24px;
+}
+.p-third{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    color: #aaa8ac;
+}
+
+
+.fourth{
+    width: 100%;
+    height: 1035px;
+    display: flex;
+    justify-content: center;
+}
+.fourth-first{
+    width: 1226px;
+    height: 880px;
+    background-color: chartreuse;
+    display: flex;
+    flex-flow: row wrap;
+}
+.fourth-second{
+    height: 100%;
+    width: 440px;
+    margin: auto;
+}
+.divs{
+    width: 50%;
+    height: 50%;
+    background-color: #000;
+}
+.divs-img-first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg);
+    background-size: cover;
+}
+.divs-img-second{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg);
+    background-size: cover;
+}
+.p-fourth{
+    font-size: 14.4px;
+    text-align: center;
+    padding-top: 20px;
+    color: #aaa8ac;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.fifth{
+    height: 500px;
+    width: 100%;
+    background-color: crimson;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-size: cover;
+    background-position: 40%;
+}
+.fifth-first{
+    height: 100%;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.telegram{
+    width: 40px;
+    height: 40px;
+}
+.h2-fifth{
+    font-size: 32px;
+    color: white;
+}
+.btn-fifth{
+    height: 60px;
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.btn-fifth input {
+    height: 100%;
+    width: 600px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 2px;
+}
+.a-fifth{
+    width: 180px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #64a19d;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.sixth{
+    height: 350px;
+    width: 100%;
+    background-color: #000;
+}
+.sixth-first{
+    width: 1225px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixth-divs{
+    width: 375px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.map{
+    width: 20px;
+    height: 20px;
+}
+.h4-sixth{
+    font-size: 12.8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.line-sixth-one{
+    width: 50px;
+    height: 4px;
+    background-color: #64a19d;
+    margin: 10px 0 10px 0;
+}
+.small {
+    font-size: 0.875em;
+}
+.p-sixth{
+    color: #aaa8ac;
+}
+.line-sixth-two{
+    width: 100%;
+    height: 4px;
+    background-color: #64a19d;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+.sixth-divs a {
+    color: #64a19d;
+}
+
+
+.seventh{
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.social-m{
+    width: 50px;
+    height: 50px;
+    background-color: #1a1a1a;
+    border-radius: 50%;
+    position: relative;
+}
+.twitter{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+}
+.i-seventh{
+    font-size: 15px;
+}
+.facebook{
+    position: absolute;
+    left: 20px !important;
+    top: 17px !important;
+}
+.github{
+    position: absolute;
+    left: 17px;
+    top: 17px;
+}
+
+
+.center{
+    text-align: center !important;
+}
+.m-0{
+    margin: 0 !important;
+}
+.foot{
+    width: 100%;
+    height: 120px;
+    padding-top: 60px;
+}
+.colors{
+    background-color: #000;
+    color: #5f5f5f;
+}
